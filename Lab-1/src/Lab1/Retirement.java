@@ -49,6 +49,7 @@ public class Retirement {
 		pmt = pv * (((interest_inv * .01) / annual)
 				/ ((Math.pow(1 + (interest_inv * .01) / annual, years * annual)) - 1));
 
+		System.out.println("Your total amount of money needed is $ " + Math.round(pv * 100.0)/ 100.0);
 		System.out.println("You need to save " + Math.round(pmt * 100.0) / 100.0 + "$" + " each month.");
 
 	}
