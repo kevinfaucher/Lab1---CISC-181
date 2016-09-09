@@ -1,3 +1,5 @@
+//Eric Willey-100%, Alexia Nebrao-100%, Kevin Faucher-100%
+//Lab 20 - Group - 5
 package Lab1;
 
 import java.util.Scanner;
